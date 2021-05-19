@@ -1,0 +1,439 @@
+{
+  "pages": {
+    "page_0": {
+      "id": "page_0",
+      "mode": "FIT_WINDOW",
+      "type": "NORMAL",
+      "layout": {
+        "LARGE": "layout_0"
+      },
+      "isDefault": true,
+      "isVisible": true,
+      "label": "Main Page",
+      "header": true,
+      "footer": true
+    }
+  },
+  "layouts": {
+    "layout_0": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": 0,
+            "right": 0,
+            "top": 0,
+            "bottom": 0,
+            "width": "100.0000%",
+            "height": "100.0000%"
+          },
+          "widgetId": "widget_1",
+          "setting": {
+            "vCenter": false,
+            "hCenter": false,
+            "autoProps": {
+              "top": false,
+              "bottom": false,
+              "left": false,
+              "right": false,
+              "height": "STRETCH",
+              "width": "STRETCH"
+            },
+            "lockLayout": false
+          }
+        }
+      },
+      "order": [
+        "0"
+      ]
+    },
+    "layout_1": {
+      "type": "FIXED",
+      "label": "Map FixedLayout",
+      "order": [],
+      "content": {}
+    },
+    "layout_2": {
+      "type": "FIXED",
+      "order": [
+        "0",
+        "1"
+      ],
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "105.00px",
+            "right": "64.8362%",
+            "top": "5.00px",
+            "bottom": 0,
+            "width": "360.00px",
+            "height": "65.00px"
+          },
+          "widgetId": "widget_2",
+          "setting": {
+            "vCenter": false,
+            "autoProps": {
+              "top": false,
+              "bottom": false,
+              "height": "CUSTOM"
+            },
+            "hCenter": false
+          },
+          "isPending": false
+        },
+        "1": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "20.00px",
+            "right": "91.0165%",
+            "top": "8.00px",
+            "bottom": 0,
+            "width": "60.00px",
+            "height": "60.00px"
+          },
+          "widgetId": "widget_3",
+          "isPending": false,
+          "setting": {
+            "vCenter": true,
+            "hCenter": false,
+            "autoProps": {
+              "height": "CUSTOM"
+            }
+          }
+        }
+      }
+    },
+    "layout_3": {
+      "type": "FIXED",
+      "order": [
+        "0"
+      ],
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "15.00px",
+            "right": "63.1740%",
+            "top": "65.0000%",
+            "bottom": "0.00px",
+            "width": "98.00%",
+            "height": "30.00px"
+          },
+          "widgetId": "widget_4",
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "height": "CUSTOM",
+              "width": "CUSTOM",
+              "bottom": false,
+              "top": true
+            },
+            "hCenter": true,
+            "vCenter": true
+          }
+        }
+      }
+    },
+    "layout_4": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "15.00px",
+            "right": "63.1740%",
+            "top": "65.0000%",
+            "bottom": 0,
+            "width": "98.00%",
+            "height": "80.00%"
+          },
+          "widgetId": "widget_4",
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "height": "CUSTOM",
+              "width": "CUSTOM"
+            },
+            "hCenter": true,
+            "vCenter": true
+          },
+          "isPending": true
+        },
+        "1": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "10.00px",
+            "right": "49.4538%",
+            "top": "20.0000%",
+            "bottom": 0,
+            "width": "45.00%",
+            "height": "56.00px"
+          },
+          "widgetId": "widget_5",
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "height": "CUSTOM",
+              "width": "CUSTOM",
+              "bottom": false,
+              "top": true
+            },
+            "hCenter": false,
+            "vCenter": true
+          },
+          "isPending": false
+        },
+        "3": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "28.0504%",
+            "right": "10.00px",
+            "top": "25.9047%",
+            "bottom": 0,
+            "width": "45.00%",
+            "height": "56.00px"
+          },
+          "widgetId": "widget_6",
+          "setting": {
+            "vCenter": true,
+            "hCenter": false,
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "bottom": false,
+              "top": true,
+              "height": "CUSTOM"
+            }
+          }
+        }
+      },
+      "order": [
+        "0",
+        "1",
+        "3"
+      ]
+    }
+  },
+  "exbVersion": "1.1.0",
+  "mainSizeMode": "LARGE",
+  "theme": "themes/default/",
+  "forBuilderAttributes": {
+    "lockLayout": false,
+    "viewPortSize": {
+      "LARGE": {
+        "width": 1024,
+        "height": 768
+      }
+    }
+  },
+  "template": "blankfullscreen",
+  "attributes": {
+    "portalUrl": "https://maps.co.kendall.il.us/portal"
+  },
+  "widgets": {
+    "widget_1": {
+      "uri": "widgets/arcgis/arcgis-map/",
+      "version": "1.1.0",
+      "label": "Zoning Map",
+      "config": {
+        "toolConifg": {
+          "canZoom": true,
+          "canHome": false,
+          "canSearch": true,
+          "canScaleBar": true
+        },
+        "isUseCustomMapState": true,
+        "initialMapState": {
+          "viewPoint": {
+            "rotation": 0,
+            "scale": 72223.819286,
+            "targetGeometry": {
+              "spatialReference": {
+                "latestWkid": 3857,
+                "wkid": 102100
+              },
+              "x": -9842818.356469138,
+              "y": 5105377.971002283
+            }
+          },
+          "extent": {
+            "spatialReference": {
+              "latestWkid": 3857,
+              "wkid": 102100
+            },
+            "xmin": -9852707.397003518,
+            "ymin": 5099196.126339727,
+            "xmax": -9832929.315934757,
+            "ymax": 5111559.815664838
+          },
+          "rotation": 0,
+          "viewType": "2d"
+        },
+        "initialMapDataSourceID": "dataSource_1",
+        "layoutIndex": 1
+      },
+      "id": "widget_1",
+      "layouts": {
+        "MapFixedLayout": {
+          "LARGE": "layout_1"
+        }
+      },
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_1",
+          "mainDataSourceId": "dataSource_1"
+        }
+      ]
+    },
+    "widget_2": {
+      "uri": "widgets/common/text/",
+      "version": "1.1.0",
+      "label": "Title",
+      "config": {
+        "text": "<p style=\"line-height: 1.5;\"><strong style=\"font-size: 20px;\">Official Zoning Map</strong></p><p style=\"line-height: 1.5;\"><span style=\"font-size: 16px;\">of Kendall County, Illinois</span></p>",
+        "placeholder": "Double click to edit text",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        }
+      },
+      "id": "widget_2"
+    },
+    "widget_3": {
+      "uri": "widgets/common/image/",
+      "version": "1.1.0",
+      "label": "Logo",
+      "config": {
+        "functionConfig": {
+          "altText": "",
+          "toolTip": "",
+          "linkParam": {},
+          "scale": "Fit",
+          "imageParam": {
+            "url": "${appResourceUrl}/images/widget_3/1603310541712.png",
+            "originalUrl": "${appResourceUrl}/images/widget_3/1603310541712.png",
+            "fileName": "1603310541712.png",
+            "originalName": "KCO_logo_main.png",
+            "imgSourceType": "BY_UPLOAD",
+            "fileFormat": "image/png",
+            "originalId": "1603310541712",
+            "cropParam": {
+              "svgViewBox": "0 0 28 28",
+              "svgPath": "M28 14c0 7.732-6.268 14-14 14S0 21.732 0 14 6.268 0 14 0s14 6.268 14 14z",
+              "cropShape": "circle"
+            }
+          },
+          "imgSourceType": "",
+          "srcExpression": null,
+          "imageFillMode": "FIT"
+        },
+        "styleConfig": {}
+      },
+      "id": "widget_3",
+      "style": {
+        "background": {
+          "color": "var(--light)",
+          "fillType": "fit",
+          "image": {}
+        },
+        "borderRadius": {
+          "number": [
+            100
+          ],
+          "unit": "%"
+        },
+        "border": {
+          "type": "solid",
+          "color": "var(--light)",
+          "width": "3px"
+        }
+      }
+    },
+    "widget_4": {
+      "uri": "widgets/common/text/",
+      "version": "1.1.0",
+      "label": "Contact Info",
+      "config": {
+        "text": "<p><span style=\"color:var(--light);\">Kendall County Planning, Building &amp; Zoning  |  </span><a href=\"tel:6305534141\" target=\"_blank\" data-uniqueid=\"b79844ad_15af_10c7_b2c5_9d973910259f\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22tel%3A6305534141%22%2C%22expression%22%3Anull%7D\" style=\"color:var(--light);\">630.553.4141</a><span style=\"color:var(--light);\">  |  </span><a href=\"https://www.co.kendall.il.us/departments/planning-building-zoning\" target=\"_blank\" data-uniqueid=\"b74a283a_fe97_74e3_b361_ee73f7062022\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22https%3A%2F%2Fwww.co.kendall.il.us%2Fdepartments%2Fplanning-building-zoning%22%2C%22expression%22%3Anull%7D\" style=\"color:var(--light);\">PBZ Website</a></p>",
+        "placeholder": "Double click to edit text",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        }
+      },
+      "id": "widget_4"
+    },
+    "widget_5": {
+      "uri": "widgets/common/text/",
+      "version": "1.1.0",
+      "label": "Contact Info Mobile",
+      "config": {
+        "text": "<p style=\"line-height: 1.8;\"><span style=\"color:var(--light);\">Kendall County Planning,</span></p><p style=\"line-height: 1.8;\"><span style=\"color:var(--light);\">Building &amp; Zoning</span></p>",
+        "placeholder": "Double click to edit text",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        }
+      },
+      "id": "widget_5"
+    },
+    "widget_6": {
+      "uri": "widgets/common/text/",
+      "version": "1.1.0",
+      "label": "Contact Info Mobile copy",
+      "config": {
+        "text": "<p style=\"text-align: right; line-height: 1.8;\"><a href=\"tel:6305534141\" target=\"_blank\" data-uniqueid=\"b79844ad_15af_10c7_b2c5_9d973910259f\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22tel%3A6305534141%22%2C%22expression%22%3Anull%7D\" style=\"color:var(--light);\">630.553.4141</a></p><p style=\"text-align: right; line-height: 1.8;\"><a href=\"https://www.co.kendall.il.us/departments/planning-building-zoning\" target=\"_blank\" data-uniqueid=\"b74a283a_fe97_74e3_b361_ee73f7062022\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22https%3A%2F%2Fwww.co.kendall.il.us%2Fdepartments%2Fplanning-building-zoning%22%2C%22expression%22%3Anull%7D\" style=\"color:var(--light);\"><span class=\"ql-cursor\">﻿</span></a><a href=\"https://www.co.kendall.il.us/departments/planning-building-zoning\" target=\"_blank\" data-uniqueid=\"b74a283a_fe97_74e3_b361_ee73f7062022\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22https%3A%2F%2Fwww.co.kendall.il.us%2Fdepartments%2Fplanning-building-zoning%22%2C%22expression%22%3Anull%7D\" style=\"color:var(--light);\">PBZ Website</a></p>",
+        "placeholder": "Double click to edit text",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        }
+      },
+      "id": "widget_6"
+    }
+  },
+  "widgetsManifest": {},
+  "views": {},
+  "sections": {},
+  "dialogs": {},
+  "dataSources": {
+    "dataSource_1": {
+      "type": "WEB_MAP",
+      "itemId": "015c01afa1e34cc2920be60b84ca385b",
+      "id": "dataSource_1",
+      "portalUrl": "https://maps.co.kendall.il.us/portal"
+    }
+  },
+  "messageConfigs": {},
+  "pageStructure": [
+    {
+      "page_0": []
+    }
+  ],
+  "header": {
+    "layout": {
+      "LARGE": "layout_2"
+    },
+    "height": {
+      "LARGE": "75px"
+    },
+    "backgroundColor": "#55687d"
+  },
+  "footer": {
+    "layout": {
+      "LARGE": "layout_3",
+      "SMALL": "layout_4"
+    },
+    "height": {
+      "LARGE": "40px",
+      "SMALL": "70px"
+    },
+    "backgroundColor": "#55687d"
+  },
+  "timestamp": 1603331105275
+}
